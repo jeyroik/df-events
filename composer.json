@@ -1,0 +1,13 @@
+{
+  "name": "jeyroik/df-event",
+  "description": "Df event package",
+  "require": {
+    "jeyroik/extas-base": "*",
+    "jeyroik/extas-templates": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "df\\": "src/"
+    }
+  }
+}

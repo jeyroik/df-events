@@ -1,0 +1,23 @@
+{
+  "name": "df/events",
+  "package_classes": [
+    {
+      "class": "df\\components\\events\\templates\\EventTemplateRepository",
+      "interface": "df\\interfaces\\events\\templates\\IEventTemplateRepository"
+    },
+    {
+      "class": "df\\components\\events\\EventRepository",
+      "interface": "df\\interfaces\\events\\IEventRepository"
+    }
+  ],
+  "plugins": [
+    {
+      "class": "df\\components\\plugins\\PluginInstallEvents",
+      "stage": "extas.install"
+    },
+    {
+      "class": "df\\components\\plugins\\PluginInstallEventTemplates",
+      "stage": "extas.install"
+    }
+  ]
+}
